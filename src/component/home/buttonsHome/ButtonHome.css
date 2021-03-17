@@ -1,4 +1,4 @@
-.purple-button{
+.purple{
     width: 350px;
     height: 90px;
     border-style:none;
@@ -16,15 +16,15 @@
     cursor: pointer;
     margin-right: 50px;
 }
-.purple-button:hover{
+.purple:hover{
     background-color: #8845f5;
 }
-.purple-button p{
+.purple p{
     margin-bottom: 0px;
     max-width: 200px;
 }
 
-.blue-button{
+.blue{
     width: 350px;
     height: 90px;
     border-style:none;
@@ -43,15 +43,15 @@
     margin-right: 50px;
 
 }
-.blue-button:hover{
+.blue:hover{
     background-color: #604bff;
 }
-.blue-button p{
+.blue p{
     margin-bottom: 0px;
     max-width: 200px;
 }
 
-.lightblue-button{
+.lightblue{
     width: 350px;
     height: 90px;
     border-style:none;
@@ -68,10 +68,10 @@
     border-radius: 8px;
     cursor: pointer;
 }
-.lightblue-button:hover{
+.lightblue:hover{
     background-color: #4a8af0;
 }
-.lightblue-button p{
+.lightblue p{
     margin-bottom: 0px;
     max-width: 250px;
 }

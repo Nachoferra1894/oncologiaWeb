@@ -5,6 +5,9 @@ import { Login } from './component/login/Login';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { TimeStatus } from './component/timestatus/TimeStatus';
 import { UserTabAllUsers } from './component/home/seeAllUsers/UserTabAllUsers';
+import 'fontsource-roboto';
+
+
 
 function App() {
   return (
