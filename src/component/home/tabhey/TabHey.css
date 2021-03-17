@@ -1,0 +1,34 @@
+.tabhey-cont-background{
+    background-color: #F4F4F4;
+    width: auto;
+    height: 100px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.tabhey-cont-purple{
+    height: 100px;
+    width: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #9357F7;
+}
+.tabhey-cont{
+    width: auto;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tabhey-cont-name{
+    text-align: start !important;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.tabhey-cont-bd{
+    text-align: start !important;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
