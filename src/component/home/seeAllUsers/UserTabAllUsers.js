@@ -9,7 +9,7 @@ export const UserTabAllUsers = () => {
     return(
         <div className="home-cont-background">
 
-            <ButtonGoBack text="VOLVER ATRAS" color="purple"/>
+            <ButtonGoBack text="VOLVER AL INICIO" color="purple"/>
 
             <div>
             <div className="usertab-cont-info-allUsers">

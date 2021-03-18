@@ -79,3 +79,27 @@ table tbody tr{
     height: 20px;
     width: 20px;
 }
+
+
+.menu-eliminate-1{
+    margin-top: 350px;
+}
+.menu-eliminate-2{
+
+}
+
+.menu-eliminate-3{
+    margin-top: 60px;
+}
+
+.menu-eliminate-4{
+    margin-top: 100px;
+}
+
+.menu-eliminate-5{
+    margin-top: 150px;
+}
+
+.menu-item-eliminar{
+    color: "red";
+}

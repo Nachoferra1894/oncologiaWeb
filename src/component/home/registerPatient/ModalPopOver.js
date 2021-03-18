@@ -1,9 +1,9 @@
 import React from 'react';
 import '../registerPatient/ModalPopOver.css'
-import { TextField } from '@material-ui/core';
 import 'fontsource-roboto';
 
-const ModalPopOver = props => {
+
+const ModalPopOver = (props) => {
      
      const divStyle = { 
           display: props.displayModal ? 'block' : 'none'

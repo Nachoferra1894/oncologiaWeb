@@ -6,10 +6,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { TimeStatus } from './component/timestatus/TimeStatus';
 import { UserTabAllUsers } from './component/home/seeAllUsers/UserTabAllUsers';
 import 'fontsource-roboto';
+import { Component } from 'react';
 
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
 
@@ -38,5 +39,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
