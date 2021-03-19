@@ -7,21 +7,15 @@
     border-radius: 5px;
 
 }
-.usertab-cont-purple{
-    justify-self: end;
-    height: auto;
-    min-height: 300px;
-    width: 30px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: #9357F7;
-}
 .usertab-cont-info{
     height: auto;
     min-height: 300px;
     width: 450px;
     padding: 15px;
     padding-bottom: 20px;
+    border-right: 30px solid #9357F7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .table{
     width: 450px;
@@ -81,25 +75,6 @@ table tbody tr{
 }
 
 
-.menu-eliminate-1{
-    margin-top: 350px;
-}
-.menu-eliminate-2{
-
-}
-
-.menu-eliminate-3{
-    margin-top: 60px;
-}
-
-.menu-eliminate-4{
-    margin-top: 100px;
-}
-
-.menu-eliminate-5{
-    margin-top: 150px;
-}
-
-.menu-item-eliminar{
-    color: "red";
+.menu-eliminate-1 {
+    margin-left: 5%;
 }

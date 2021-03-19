@@ -57,7 +57,6 @@ export const UserTabAllUsers = () => {
                     </tbody>
                 </table>
                 </div>
-                <div className="usertab-cont-purple"/>
             </div>
         </div>
     )

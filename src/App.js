@@ -5,6 +5,7 @@ import { Login } from './component/login/Login';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { TimeStatus } from './component/timestatus/TimeStatus';
 import { UserTabAllUsers } from './component/home/seeAllUsers/UserTabAllUsers';
+import {CompleteProfile} from './component/home/profile/CompleteProfile'
 import 'fontsource-roboto';
 import { Component } from 'react';
 
@@ -30,6 +31,10 @@ const App = () => {
 
             <Route exact path="/seeAllUsers">
               <UserTabAllUsers/>
+            </Route>
+
+            <Route exact path="/profile">
+              <CompleteProfile/>
             </Route>
 
           </BrowserRouter>

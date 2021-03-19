@@ -8,7 +8,6 @@ export const TabHey = (props) => {
                     <p className="tabhey-cont-bd">Buen dia,</p>
                     <p className="tabhey-cont-name">{props.name}!</p>
                 </div>
-                <div className="tabhey-cont-purple"/>
             </div>
     )
 }
