@@ -82,10 +82,12 @@ export const UserTabHome=()=> {
                                         vertical: 'left',
                                         horizontal: 'left',
                                         }}>
-                                        <MenuItem onClick={handleClose}><Link to="/profile" className="">VER PERFIL</Link></MenuItem>
+                                        <Link to="/profile" className="menu-item-profile">
+                                            <MenuItem onClick={handleClose}>VER PERFIL</MenuItem>
+                                        </Link>
                                         <MenuItem onClick={handleClose}>VER SINTOMAS</MenuItem>
                                         <MenuItem onClick={handleClose}>VER REGISTRO DIARIO</MenuItem>
-                                        <MenuItem onClick={e => handleCloseAndOpenModal}>ELIMINAR</MenuItem>
+                                        <MenuItem className="menu-item-eliminar-profile" onClick={e => handleCloseAndOpenModal}>ELIMINAR</MenuItem>
                                     </Menu>
                                     <ModalPopOverEliminate 
                                         id={number}
@@ -115,10 +117,12 @@ export const UserTabHome=()=> {
                                         vertical: 'left',
                                         horizontal: 'left',
                                         }}>
-                                        <MenuItem onClick={handleClose}><Link to="/profile" className="">VER PERFIL</Link></MenuItem>
+                                        <Link to="/profile" className="menu-item-profile">
+                                            <MenuItem onClick={handleClose}>VER PERFIL</MenuItem>
+                                        </Link>
                                         <MenuItem onClick={handleClose}>VER SINTOMAS</MenuItem>
                                         <MenuItem onClick={handleClose}>VER REGISTRO DIARIO</MenuItem>
-                                        <MenuItem onClick={handleCloseAndOpenModal} >ELIMINAR</MenuItem>
+                                        <MenuItem className="menu-item-eliminar-profile" onClick={handleCloseAndOpenModal} >ELIMINAR</MenuItem>
                                     </Menu>
                                     <ModalPopOverEliminate
                                         id={number} // Numero de paciente, lo settea cunado apretas el boton al lado del nombre
