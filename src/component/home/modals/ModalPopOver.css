@@ -48,11 +48,11 @@
     margin-bottom: 5px;
 }
 
-.inside-the-modal{
-    margin-top: 50px;
+.add-inside-the-modal{
+    margin-top: 50px; 
     margin-left: 20px;
 }
-.cancer-the-modal{
+.add-cancer-the-modal{
     margin-top: 30px;
     margin-left: 20px;
 }
@@ -60,7 +60,7 @@
 .numero-del-paciente{
     width: 370px;
     height: 30px;
-    border-color:#8A2CE2;
+    border-color:#a0a0a0;;
     border-style: solid;
     border-radius: 7px;
     padding: 2px;

@@ -28,7 +28,7 @@ const ModalPopOver = (props) => {
                <p className="modal-title">REGISTRAR NUEVO PACIENTE</p>
                <ColoredLine color="gray" />
             </div>
-            <div className="inside-the-modal">
+            <div className="add-inside-the-modal">
                 <p>Numero de paciente</p>
             </div> 
             <div>
@@ -37,7 +37,7 @@ const ModalPopOver = (props) => {
                   placeholder="Introduzca el numero del paciente"
                   variant="outlined"/>
             </div>
-            <div className="cancer-the-modal">
+            <div className="add-cancer-the-modal">
                 <p>Tipo de cancer</p>
             </div> 
             <div>

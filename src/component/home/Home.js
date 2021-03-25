@@ -1,10 +1,10 @@
 import React from 'react'
 import '../home/Home.css'
-import { TabHey } from '../home/tabhey/TabHey'
 import { ButtonHome } from './buttonsHome/ButtonHome'
 import ModalPopOver from './modals/ModalPopOver'
 import  {UserTabHome}  from './usertabhome/UserTabHome'
 import { Component } from 'react';
+import { TabHey } from './tabhey/TabHey';
 
 
 
@@ -21,9 +21,9 @@ export class Home extends Component {
      render(){
         return(
                 <div className="home-cont-background">
-
+                    
                     <TabHey name={"RICARDO"}/>
-
+                        
                         <div className="home-cont-buttons">
                         
                             <ButtonHome text="REGISTRAR NUEVO PACIENTE" color="purple" onClick={this.selectModal }></ButtonHome>
